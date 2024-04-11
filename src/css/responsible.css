@@ -1,0 +1,30 @@
+@media (max-width: 426px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content .results,
+    .summary,
+    .summary .btn{
+        min-width: 100%;
+    }
+
+    .content .results {
+        border-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .content .results {
+        justify-content: space-between;
+    }
+
+    .summary .title {
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    .summary .btn {
+        align-self: center;
+    }
+}
